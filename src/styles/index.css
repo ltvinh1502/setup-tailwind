@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* Custom dark mode variant */
+@custom-variant dark (&:is(.dark *));
+
+/* Project theme definitions (variables, light/dark) */
+@import 'theme.css';
+
+/* Base styles for HTML elements */
+@import 'base.css';
+
+/* Reusable component patterns */
+@import 'components.css';
+
+/* Custom single-purpose utilities (if any) */
+@layer utilities {
+  /* Add custom utilities here if needed, prefer component patterns */
+}
